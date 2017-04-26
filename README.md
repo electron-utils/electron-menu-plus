@@ -50,7 +50,8 @@ menuPlus.MainMenu.add('My Menu', [
 
 ## API Reference
 
-TODO
+  - [Menu](./docs/menu.md)
+  - [MainMenu](./docs/main-menu.md)
 
 ## License
 
