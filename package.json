@@ -1,0 +1,35 @@
+{
+  "name": "electron-menu-plus",
+  "version": "1.0.0",
+  "description": "Improved menu operations for Electron.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron",
+    "test": "electron-node-tap ./test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron-utils/electron-menu-plus.git"
+  },
+  "keywords": [
+    "Electron",
+    "Platform"
+  ],
+  "author": "jwu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/electron-utils/electron-menu-plus/issues"
+  },
+  "homepage": "https://github.com/electron-utils/electron-menu-plus",
+  "devDependencies": {
+    "electron": "^1.6.5",
+    "electron-node-tap": "^1.1.4",
+    "spectron": "^3.6.1"
+  },
+  "dependencies": {
+    "electron-ipc-plus": "^1.3.3",
+    "electron-platform": "^1.2.0",
+    "lodash": "^4.17.4",
+    "path-plus": "^1.0.0"
+  }
+}
